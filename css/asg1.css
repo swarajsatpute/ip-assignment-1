@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: aliceblue;
+  background-color: darkseagreen;
+}
+a {
+  text-decoration: none;
+  /* color: aliceblue; */
+}
+.hero {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(../images/pexels-kelsey-johnson-2331575.jpg) center / cover no-repeat
+      fixed;
+}
+.table {
+  margin: auto;
+  transform: translateY(50vh);
+}
+.container {
+  background-color: transparent;
+}
+thead {
+  background-color: red;
+}
+.class-1 {
+  background-color: tomato;
+}
+.class-2 {
+  background-color: tan;
+}
+.class-3 {
+  background-color: steelblue;
+}
+.class-4 {
+  background-color: violet;
+}
+
+/*  ===========================  */
+.form-container {
+  transform: translateY(10vh);
+  background-color: darkgrey;
+  display: inline-block;
+  border-radius: 10%;
+  padding: 20px;
+  min-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(../images/pexels-edwin-josé-vega-ramos-2100018.jpg) center / cover
+      no-repeat fixed;
+  position: relative;
+}
+.btn {
+  background: aliceblue;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  /* position: absolute;
+  bottom: 10px; */
+  border-radius: 10%;
+  color: black;
+}
+.btn-container {
+  transform: translateY(100px);
+  display: flex;
+  align-self: auto;
+  justify-content: center;
+  align-items: flex-end;
+}
+.com {
+  color: aliceblue;
+  transform: translateX(0px);
+  transform: translateY(0px);
+}
+input {
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid oldlace;
+}
+::placeholder {
+  color: aliceblue;
+  opacity: 1;
+}
+
+/* float: left; */
+
+.sp {
+  transform: translateY(20px);
+}
+.branch {
+  /* background-color: bisque; */
+  max-width: 350px;
+  display: flex;
+  padding: 10px;
+}
+.tech {
+  /* background-color: blue; */
+  max-width: 350px;
+  display: flex;
+  padding: 10px;
+}
+textarea:focus,
+input:focus {
+  color: aliceblue;
+}
+
+input,
+select,
+textarea {
+  color: aliceblue;
+}
+.extra {
+  background-color: darkseagreen;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="./css/asg1.css" />
+  </head>
+  <body>
+    <main>
+      <header class="heading">
+        <div class="hero">
+          <h1>Assignment 3</h1>
+          <form
+            action=""
+            onsubmit="return myFunction()"
+            name="form"
+            class="form-container"
+          >
+            <div class="com name">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Full Name"
+              />
+            </div>
+            <div class="com address">
+              <label for="address">Address:</label>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Address"
+              />
+            </div>
+            <div class="com email">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+              />
+            </div>
+            <div class="com contact">
+              <label for="contact">Number:</label>
+              <input
+                type="tel"
+                name="contact"
+                id="contact"
+                placeholder="Number:"
+              />
+            </div>
+            <div class="com dob">
+              <label for="dob">Date of Birth:</label>
+              <input type="date" name="dob" id="dob" placeholder="Date:" />
+            </div>
+            <div class="com percentage">
+              <label for="percentage">Percentage:</label>
+              <input
+                type="text"
+                name="percentage"
+                id="percentage"
+                placeholder="Percentage"
+                value="value"
+              />
+            </div>
+            <div class="sp branch">
+              <label for="branch">IT</label>
+              <input type="radio" name="branch" id="it" value="it" />
+              <label for="branch">EXTC</label>
+              <input type="radio" name="branch" id="extc" value="extc" />
+              <label for="branch">CS</label>
+              <input type="radio" name="branch" id="cs" value="cs" />
+              <label for="branch">ITR</label>
+              <input type="radio" name="branch" id="itr" value="itr" />
+            </div>
+            <div class="sp tech">
+              <label for="html">HTML</label>
+              <input type="checkbox" name="html" id="html" value="html" />
+
+              <label for=" javascript">javascript</label>
+              <input
+                type="checkbox"
+                name="javascript"
+                id="javascript"
+                value="javascript"
+              />
+
+              <label for="css">CSS</label>
+              <input type="checkbox" name="css" id="css" value="css" />
+            </div>
+            <div class="btn-container">
+              <button class="btn" type="submit" value="submit">Submit</button>
+              <button class="btn" type="reset">Reset</button>
+            </div>
+          </form>
+          <div class="btn-container">
+            <div>
+              <button class="btn" type="button">
+                <a href="./index.html">Portfolio</a>
+              </button>
+              <button class="btn" type="button" s>
+                <a href="./asg1.html">Assignment 3</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
